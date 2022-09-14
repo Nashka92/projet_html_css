@@ -71,6 +71,7 @@ h2{
     margin: 50px;
     align-content: center;
     text-align: center;
+    height: 350px;
 
 }
 
@@ -80,6 +81,12 @@ h2{
     width: 350px;
     margin-left: 250px;
 }
+
+#button_login {
+    display: flex;
+    margin-left: 90px;
+}
+
 
 
 
