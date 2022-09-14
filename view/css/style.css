@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    height: 100px;
+    background-color: red;
+    align-content: space-between;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    height: 100px;
+    background-color: red;
+}
+
+#chats {
+    display: flex;
+    align-content: space-between;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+}
+
+#login {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    align-items: center;
+}
+
+#contenu {
+    height: 745px;
+    width: 1349px;
+}
+
+
