@@ -1,92 +1,134 @@
 header {
-    display: flex;
-    height: 100px;
-    background-color:rgb(146, 146, 146);
+  display: flex;
+  height: 100px;
+  background-color: rgb(146, 146, 146);
 }
 
 footer {
-    display: flex;
-    align-items: flex-end;
-    height: 100px;
-    background-color: rgb(146, 146, 146);
+  display: flex;
+  align-items: flex-end;
+  height: 100px;
+  background-color: rgb(146, 146, 146);
 }
 
-h2{
-    
-    font-family: Arial, Helvetica, sans-serif;
-    
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #chats {
-    display: flex;
-    align-content: space-between;
+  display: flex;
+  align-content: space-between;
 }
 
 .chat {
-    display: flex;
-    flex-direction: column;
-    margin: 100px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  text-align: center;
 }
 
 #login {
-    width: 1223px;
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-top: 25px;
+  width: 1223px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 25px;
 }
 
 #liens {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    height: 100px;
-    width: 450px;
-    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 100px;
+  width: 450px;
+  text-align: center;
 }
 
 #lien {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .logo {
-    display: flex;
-    height: 100px;
-    width: 100px;
-    background-color: rgb(146, 146, 146);
-    align-items: center;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(146, 146, 146);
+  align-items: center;
 }
 
 #contenu {
-    height: 745px;
-    width: 1349px;
+  height: 745px;
+  width: 1349px;
 }
 
-.image{
-    margin: 5px;
+.image_logo {
+  margin: 5px;
 }
 
-#contenu_register{
-    padding: 150px;
-    margin: 50px;
-    align-content: center;
-    text-align: center;
-    height: 350px;
-
+.image {
+  width: 400px;
+  height: 400px;
 }
 
-.card{
-    background-color: rgb(148, 148, 148);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 350px;
-    margin-left: 250px;
+#contenu_register {
+  padding: 150px;
+  margin: 50px;
+  align-content: center;
+  text-align: center;
+  height: 350px;
+}
+
+.card {
+  background-color: rgb(148, 148, 148);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  margin-left: 250px;
 }
 
 #button_login {
-    display: flex;
-    margin-left: 90px;
+  display: flex;
+  margin-left: 90px;
 }
 
+@media screen and (max-width: 520px) {
+  header {
+    width: 363px;
+  }
 
+  #login {
+    text-align: right;
+    margin-right: 10px;
+  }
 
+  .image {
+    width: 200px;
+    height: 200px;
+  }
 
+  #chats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chat{
+    margin: 0px;
+    margin-left: 75px;
+  }
+
+  #contenu {
+    display: flex;
+    height: 850px;
+  }
+
+  #contenu_register {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    height: 350px;
+  }
+
+  .card{
+    margin-left: 0px;
+  }
+}

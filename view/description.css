@@ -43,4 +43,30 @@ footer {
     align-items: center;
 }
 
+@media screen and (max-width: 520px) {
+
+    .image {
+        width: 200px;
+        height: 200px;
+        margin-left: 75px;
+        margin-top: 50px;
+      }
+
+    #description{
+        display: flex;
+        flex-direction: column;
+    }
+
+    p{
+        display: flex;
+        width: 25%;
+        text-align: center;
+    }
+
+    h1{
+        display: flex;
+        margin-left: 65px;
+    }
+}
+
 
