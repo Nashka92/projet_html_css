@@ -13,6 +13,8 @@ header {
 
 #photo{
     margin: 15px;
+    height: 500px;
+    width: 500px;
 }
 
 h1{
@@ -28,6 +30,10 @@ footer {
     align-items: flex-end;
     height: 100px;
     background-color: rgb(146, 146, 146);
+}
+
+.image{
+    margin: 5px;
 }
 
 
